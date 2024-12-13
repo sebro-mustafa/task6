@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Furni</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
    <!-- start header -->
     <header>
-        <div class="container text-center mb-5 " >
+        <div class="container text-center mb-5 ">
             <div class="row ">
               <div class="col-md-3 ps-5">
                 <nav class="navbar ">
                     <div class="container-fluid ">
-                      <a class="navbar-brand text-light  fs-1" href="#">Furni</a>
+                      <a class="navbar-brand text-light  fs-1" href="#">Furni<span class="text-secondary fs-1">.</span></a>
                     </div>
                   </nav>
               </div>
@@ -27,24 +31,24 @@
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 shop ">
                           <li class="nav-item px-3 ">
-                            <a class="nav-link active text-light  " aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-light home  " aria-current="page" href="#">Home</a>
                           </li>
                           <li class="nav-item px-3">
-                            <a class="nav-link text-light" href="#">Shop</a>
+                            <a class="nav-link " href="#">Shop</a>
                           </li>
                           <li class="nav-item px-3">
-                            <a class="nav-link text-light" href="#">About us</a>
+                            <a class="nav-link " href="#">About us</a>
                           </li>
                           <li class="nav-item px-3">
-                            <a class="nav-link text-light" href="#">Services</a>
+                            <a class="nav-link " href="#">Services</a>
                           </li>
                           <li class="nav-item px-3">
-                            <a class="nav-link text-light" href="#">Blog</a>
+                            <a class="nav-link " href="#">Blog</a>
                           </li>
                           <li class="nav-item px-3 pe-5 ">
-                            <a class="nav-link text-light" href="#">Contact us</a>
+                            <a class="nav-link " href="#">Contact us</a>
                           </li>
                           <li class="nav-item ps-5 pe-0 pt-2">
                             <div class="container-fluid">
@@ -81,7 +85,7 @@
                 </div>
 
               </div>
-              <div class="col-7">
+              <div class="col-lg-7">
                 <div>
                     <img src="img/couch.png" alt="couch">
                 </div>
@@ -89,15 +93,16 @@
               </div>
             </div>
           </div>
+        </div>
 
     </header>
     <!-- end header -->
 
     <!-- start material -->
-    <div class="container text-center    d-flex"style="height: 100vh;">
+    <div class="container text-center    d-flex" >
         <div class="row align-items-center ">
           <div class="col-lg-3 text-start ">
-            <div class="card border-0 " style="width: 18rem;  background-color: #EFF2F1;">
+            <div class="card material border-0 " style="width: 18rem;  background-color: #EFF2F1;">
                 <div class="card-body">
                   <h5 class="card-title mb-3">Crafted with excellent material.</h5>
                   <p class="card-text mb-3">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
@@ -105,7 +110,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-lg-3 ">
+          <div class="col-lg-3 col-md-4 ">
             <div class="card border-0 " style="width: 18rem;  background-color: #EFF2F1;">
                 <img src="img/product-1.png" class="card-img-top" alt="product-1">
                 <div class="card-body">
@@ -115,7 +120,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-lg-3 ">
+          <div class="col-lg-3 col-md-4 ">
             <div class="card border-0 " style="width: 18rem;  background-color: #EFF2F1;">
                 <img src="img/product-2.png" class="card-img-top" alt="product-2">
                 <div class="card-body">
@@ -125,7 +130,7 @@
                 </div>
               </div>
           </div>
-          <div class="col-lg-3 ">
+          <div class="col-lg-3 col-md-4 ">
             <div class="card border-0 " style="width: 18rem;  background-color: #EFF2F1;">
                 <img src="img/product-3.png" class="card-img-top" alt="product-3">
                 <div class="card-body">
@@ -142,41 +147,41 @@
     <!-- start choose us -->
 
     <div class="choose">
-        <div class="container text-center d-flex mb-5" >
-            <div class="row align-items-start justify-content-between">
+        <div class="container text-center d-flex " >
+            <div class="row  justify-content-between">
               <div class="col-lg-6 text-start">
                 <div>
                     <h2 >Why Choose Us</h2>
-                    <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                    <p style="line-height: 28px;">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
                 </div>
                 <div class="row my-5">
-                    <div class="col-6 py-4">
+                    <div class="col-6 col-md-6 py-4">
                         <div>
-                            <div><img src="img/truck.svg" alt="truck"></div>
+                            <div class="icon"><img src="img/truck.svg" alt="truck"></div>
                             <h3>Fast & Free Shipping</h3>
                             <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
 
                         </div>
                     </div>
-                    <div class="col-6 py-4">
+                    <div class="col-6 col-md-6 py-4">
                         <div>
-                            <div><img src="img/bag.svg" alt="bag"></div>
+                            <div class="icon"><img src="img/bag.svg" alt="bag"></div>
                             <h3>Easy to Shop</h3>
                             <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
 
                         </div>
                     </div>
-                    <div class="col-6 py-4">
+                    <div class="col-6 col-md-6 py-4">
                         <div>
-                            <div><img src="img/support.svg" alt="support"></div>
+                            <div class="icon"><img src="img/support.svg" alt="support"></div>
                             <h3>24/7 Support</h3>
                             <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
 
                         </div>
                     </div>
-                    <div class="col-6 py-4">
+                    <div class="col-6 col-md-6 py-4">
                         <div>
-                            <div><img src="img/return.svg" alt="return"></div>
+                            <div class="icon"><img src="img/return.svg" alt="return"></div>
                             <h3>
                                 Hassle Free Returns</h3>
                             <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
@@ -185,7 +190,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-lg-5 align-self-end ">
+              <div class="col-lg-5  ">
                 <div >
                     <img class="img-fluid rounded-4 " src="img/why-choose-us-img.jpg" alt="why-choose-us">
                 </div>
@@ -200,18 +205,18 @@
      <div class="help">
         <div class="container text-center my-5">
             <div class="row align-items-start">
-              <div class="col-lg-7 ">
-                <!-- <div class="grid">
+              <div class="col-lg-6 ">
+                <div class="g">
                     <img class="img-fluid rounded-4 " src="img/img-grid-1.jpg" alt="grid-1">
                 </div>
-                <div class="grid">
+                <!-- <div class="grid">
                     <img class="img-fluid rounded-4" src="img/img-grid-2.jpg" alt="grid-2">
                 </div>
                 <div class="grid ">
                     <img class="img-fluid rounded-4" src="img/img-grid-3.jpg" alt="grid-3">
                 </div>
-              </div> -->
-              <div class="col-lg-5 text-start">
+              </div> --></div>
+              <div class="col-lg-4 text-start">
                 <div>
                     <h2 class=" mb-4">We Help You Make Modern Interior Design</h2>
                     <p class="text-secondary lh-lg mb-5">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
@@ -230,8 +235,9 @@
                   <p><a href="" class="btn btn-dark text-light rounded-pill px-4 py-2 fs-5 ">Explore</a></p>
               </div>
               
-            </div>
+            
           </div>
+     </div>
      </div>
     <!-- end help -->
 
@@ -239,13 +245,13 @@
      <div class="more">
         <div class="container text-center my-5 py-5">
             <div class="row align-items-start">
-              <div class="col-lg-4 text-start ">
+              <div class="col-lg-4 col-md-6 text-start ">
                 <div class="card mb-3 border-0" style="max-width: 540px;  background-color: #EFF2F1;">
                     <div class="row g-0">
-                      <div class="col-md-4">
+                      <div class="col-4 img-more">
                         <img src="img/product-1.png" class="img-fluid rounded-start" alt="product-1">
                       </div>
-                      <div class="col-md-8">
+                      <div class="col-8">
                         <div class="card-body">
                           <h5 class="card-title">Nordic Chair</h5>
                           <p class="card-text text-secondary">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
@@ -255,13 +261,13 @@
                     </div>
                   </div>
               </div>
-              <div class="col-lg-4 text-start">
+              <div class="col-lg-4 col-md-6 text-start">
                 <div class="card mb-3 border-0" style="max-width: 540px;  background-color: #EFF2F1;">
                     <div class="row g-0">
-                      <div class="col-md-4">
+                      <div class="col-4 img-more">
                         <img src="img/product-2.png" class="img-fluid rounded-start" alt="product-2">
                       </div>
-                      <div class="col-md-8">
+                      <div class="col-8">
                         <div class="card-body">
                           <h5 class="card-title">Kruzo Aero Chair</h5>
                           <p class="card-text text-secondary">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
@@ -271,13 +277,13 @@
                     </div>
                   </div>
               </div>
-              <div class="col-lg-4 text-start">
+              <div class="col-lg-4 col-md-6 text-start">
                 <div class="card mb-3 border-0" style="max-width: 540px;  background-color: #EFF2F1;">
                     <div class="row g-0">
-                      <div class="col-md-4">
+                      <div class="col-4 img-more">
                         <img src="img/product-3.png" class="img-fluid rounded-start" alt="product-3">
                       </div>
-                      <div class="col-md-8">
+                      <div class="col-8">
                         <div class="card-body">
                           <h5 class="card-title">Ergonomic Chair</h5>
                           <p class="card-text text-secondary">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
@@ -291,33 +297,48 @@
           </div>
 
      </div>
+     </div>
     <!-- end more -->
 
-    <!-- start Testimonials -->
-    <div class="testimonials ">
-        <dv class="container text-center ">
+    <!-- start Testimonials-->
+    <div class="testimonials">
+        <div class="container text-center ">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
 
-                    <div id="carouselExampleIndicators" class="carousel slide">
+                    <div id="carouselExampleIndicators" class="carousel slide ">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <h2>Testimonials</h2>
-                            <p class="text-secondary">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”                    </p>
-                            <div><img src="img/person-1.png" alt="person-1"></div>
-                            <h3>Maria Jones</h3>
-                            <p class="text-secondary">CEO, Co-Founder, XYZ Inc.</p>
-                          </div>
-                          <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
+                        <div class="container">
+                          <div class="row justify-content-center">
+                            <div class="col-lg-8 mx-auto">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <h2>Testimonials</h2>
+                                  <p class="text-secondary mt-5">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”                    </p>
+                                  <div><img class="person rounded-circle mb-3 mt-5" src="img/person-1.png" alt="person-1"></div>
+                                  <h3>Maria Jones</h3>
+                                  <span class="text-secondary ">CEO, Co-Founder, XYZ Inc.</span>
+                                </div>
+                                <div class="carousel-item">
+                                 <h2>Testimonials</h2>
+                                  <p class="text-secondary mt-5">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”                    </p>
+                                  <div><img class="person rounded-circle mb-3 mt-5" src="img/person-1.png" alt="person-1"></div>
+                                  <h3>Maria Jones</h3>
+                                 <span class="text-secon">CEO, Co-Founder, XYZ Inc.</span>
+                                </div>
+                                <div class="carousel-item">
+                                 <h2>Testimonials</h2>
+                                  <p class="text-secondary">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”                    </p>
+                                  <div><img class="person rounded-circle mb-3 mt-5" src="img/person-1.png" alt="person-1"></div>
+                                  <h3>Maria Jones</h3>
+                                 <span class="text-secon">CEO, Co-Founder, XYZ Inc.</span>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -334,27 +355,27 @@
 
             </div>
             
-        </dv>
+        </div>
     </div>
     <!--end Testimonials-->
 
     <!-- start recent -->
 
-     <div class="recent">
+     <div class="recent mt-5 pt-5">
         <div class="container mt-5 py-5 ">
             <div class="row align-items-start d-flex">
-              <div class="col-lg-6 ">
+              <div class="col-md-6 ">
                 <h2>Recent Blog</h2>
               </div>
-              <div class="col-lg-6 text-end ">
+              <div class="col-md-6 text-md-end ">
                 <a class="h6 link-underline-dark text-dark" href="">View All Posts</a>
               </div>
               
             </div>
           </div>
-          <div class="container text-center mb-5 pb-5">
+          <div class="container text-center recent-item pb-5">
             <div class="row align-items-start text-start">
-              <div class="col-lg-4 border-0 ">
+              <div class="col-md-4 col-sm-6 border-0 ">
                 <div class="card border-0 " style="  background-color: #EFF2F1;">
                  <a href=""><img class="img-fluid rounded-4" src="img/post-1.jpg" class="card-img-top" alt="post-1"></a>
                 <div class="card-body ">
@@ -364,7 +385,7 @@
                 </div>
                 
               </div>
-              <div class="col-lg-4 border-0">
+              <div class="col-md-4 col-sm-6  border-0">
 
                 <div class="card border-0" style=" background-color: #EFF2F1;">
                  <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href=""><img class="img-fluid rounded-4" src="img/post-2.jpg" class="card-img-top" alt="post-2"></a>
@@ -375,12 +396,12 @@
                 </div>
                 </div>
               </div>
-              <div class="col-lg-4 border-0">
+              <div class="col-md-4 col-sm-6  border-0">
 
                  <div class="card border-0" style="  background-color: #EFF2F1;">
                  <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href=""><img class="img-fluid rounded-4" src="img/post-3.jpg" class="card-img-top" alt="post-3"></a>
                 <div class="card-body ">
-                 <h4><a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href="">Small Space Furniture Apartment Ideas</a></h5>
+                 <h4><a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href="">Small Space Furniture Apartment Ideas</a></h4>
                  <span class="h6 text-secondary">by <a class=" link-offset-2 link-underline link-underline-opacity-0 text-dark" href="">Kristin Watson </a> on <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href=""> Dec 12, 2021</a> </span>
                 </div>
                 </div>                                
@@ -392,6 +413,95 @@
     <!-- end recent -->
 
     <!-- start footer -->
+     <footer style="background-color: white;">
+      <div class="container relative">
+         <div class="text-end cha"><img src="img/sofa.png" alt="sofa"></div>
+      
+      <div class="row  text-start">
+        <div class="col text-sub ">
+          <h3 class="sub" style="color: #3B5D50;"> <span><img src="img/envelope-outline.svg" alt="envelope-outline"></span> Subscribe to Newsletter</h3>
+          <div class="row mt-3">
+            <div class="col-auto ">
+              <input class="rounded-3 border-1 py-3 px-3 pe-5" style="border-color: #CED4DA;" type="text" id="name"
+              placeholder="Enter your name">
+            </div>
+            <div class="col-auto">
+              <input class="rounded-3 border-1 py-3 px-3 pe-5 " style="border-color: #CED4DA;" type="text" id="name"
+              placeholder="Enter your name">
+            </div>
+            <div class="col-auto">
+                <button class="btn py-3 px-4 btn-primary" style="background-color: #39594D ;"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+            <div class="col"></div>
+          </div>
+          
+        </div>
+        <div class="row text-furni g-5 mb-5">
+          <div class="col-lg-4">
+            <div class="mb-4 ">
+              <a class="furni link-offset-2 link-underline link-underline-opacity-0 h3 me-5" style="color: #3B5D50;" href="">Furni.</a>
+            </div>
+            <p class="mb-4 text-secondary lh-3">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant </p>
+            <ul class="list-unstyled d-flex social  " >
+              <li><a class="me-3 rounded-circle" href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a class="me-3  rounded-circle" href=""><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a class="me-3 rounded-circle" href=""><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a class="me-3 rounded-circle" href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-8 pt-5 ">
+            <div class="container">
+              <div class="row px-5 g-4 ">
+                <div class="col-sm-6 col-md-3">
+                  <ul class="list-unstyled ">
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Blog</li>
+                    <li>Contact us</li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <ul class="list-unstyled">
+                    <li>Support</li>
+                    <li>Knoeledge base</li>
+                    <li>Live chat</li>
+                    
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <ul class="list-unstyled">
+                    <li>Jobs</li>
+                    <li>Our team</li>
+                    <li>Leadership</li>
+                    <li>Privacy Policy</li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                  <ul class="list-unstyled">
+                    <li>Nordic chair</li>
+                    <li>Kruzo Aero</li>
+                    <li>Ergonomic chair</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-4 pb-5 border-top end ">
+        <div class="col-lg-6 text-center text-lg-start">
+          <p class="text-secondary">Copyright ©2024. All Rights Reserved. — Designed with love by <a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href=""> Untree.co </a> Distributed By ThemeWagon</p>
+        </div>
+        <div class=" col-lg-6 text-center text-lg-end">
+            <ul class="list-unstyled d-inline-flex ms-auto">
+              <li><a class="link-offset-2 link-underline link-underline-opacity-0 text-dark me-5" href="">Terms & Conditions</a></li>
+              <li><a class="link-offset-2 link-underline link-underline-opacity-0 text-dark" href="">Privacy Policy</a></li>
+              
+            </ul>
+        </div>
+      </div>
+      </div>
+     </footer>
 
     <!-- end footer -->
 
